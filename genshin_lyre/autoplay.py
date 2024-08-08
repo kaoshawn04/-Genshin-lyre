@@ -26,16 +26,16 @@ def play_sheet(sheet):
         
 
 if __name__ == "__main__":
-    """
+    type = int(input("樂譜類型( 0:json / 1:midi)"))
     name = input("name:")
-    songs = json.load(open("assets/songs.json"))
-    song = next(song for song in songs if song["name"] == name)
-    sheet = JsonSheet(song, "main").process()
-    """
     
-    sheet = MidiFile("assets/midi/alone.mid").process()
-    #print(sheet)
-    
+    if type == 0:
+        songs = json.load(open("assets/songs.json"))
+        song = next(song for song in songs if song["name"] == name)
+        sheet = JsonSheet(song, "main").process()
+        
+    else:
+        sheet = MidiFile(f"assets/midi/{name}.mid").process()
     
     genshin = win32gui.FindWindow(None, "原神")
     win32gui.SetForegroundWindow(genshin)
