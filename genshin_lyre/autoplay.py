@@ -27,7 +27,7 @@ def play_sheet(sheet):
         
 
 if __name__ == "__main__":
-    type = int(input("樂譜類型( 0:json / 1:midi):"))
+    type = int(input("type (0:json / 1:midi):"))
     name = input("name:")
     
     if type == 0:
