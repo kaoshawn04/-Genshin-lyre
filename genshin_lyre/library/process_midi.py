@@ -5,8 +5,14 @@ from library.converter import Converter
 
 class MidiFile():
     def __init__(self, file):
-        self.file = file
+        self.file = "./assets/sheet/midi/" + file
         self.converter = Converter("midi")
+        
+    def get_duration(self, messages):
+        duration = (
+            "duration", sum(message[1] for message in messages)
+        )
+        return duration
              
     def process(self):
         midi = mido.MidiFile(self.file, clip=True)
@@ -18,17 +24,17 @@ class MidiFile():
                 
                 if velocity > 0:
                     if time > 0:
-                        r = [[self.converter.convert(note)], time]
+                        r = [self.converter.convert(note), time]
                         
                     elif time == 0:
                         if len(result) > 0 and result[-1][0] != ["none"]:
                             lr = result.pop(-1)
-                            lr[0].append(self.converter.convert(note))
+                            lr[0] += self.converter.convert(note)
                             
                             r = [lr[0], time]
                         
                         else:
-                            r = [[self.converter.convert(note)], time]
+                            r = [self.converter.convert(note), time]
                         
                     result.append(r)
                 
@@ -57,14 +63,7 @@ class MidiFile():
                 result[i][0].remove("none")
                 
             result[i] = tuple(result[i])
+            
+        result.insert(0, self.get_duration(result))
                 
         return result
-   
-"""
-midi = MidiFile("assets/midi/lemon.mid")
-sheet = midi.process()
-
-with open("processed_lemon_mid.txt", "w") as file:
-    for message in sheet:
-        file.write(str(message) + "\n")
-""" 

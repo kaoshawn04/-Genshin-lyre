@@ -1,3 +1,5 @@
+import json
+
 from library.converter import Converter
 from library.config_parser import get_config
 
@@ -6,9 +8,8 @@ notes_list = get_config("notes_list")[0].split("\n")
 
 
 class JsonSheet():
-    def __init__(self, song, song_part):
-        self.song = song
-        self.song_part = song_part
+    def __init__(self, file):
+        self.file = "./assets/sheet/json/" + file
         self.converter = Converter("json_sheet")
     
     def change_key(self, notes, key):
@@ -18,13 +19,16 @@ class JsonSheet():
         return result
     
     def process(self):
-        song_bpm = self.song["bpm"]
-        song_key = self.song["key"]
-        song_time_signature = self.song["time_signature"].split("/")
+        with open(self.file, "r") as json_file:
+            sheet = json.load(json_file)
+            
+        song_bpm = sheet["bpm"]
+        song_key = sheet["key"]
+        song_time_signature = sheet["time_signature"].split("/")
         
         result = []
 
-        for element in self.song[self.song_part]:
+        for element in sheet["main"]:
             element = element.split()
 
             if element[0] == "change":

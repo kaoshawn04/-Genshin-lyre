@@ -1,0 +1,143 @@
+{
+    "name": "lemon",
+    "bpm": 87,
+    "time_signature": "4/4",
+    "key": -1,
+    "main": [
+        ".re 1", ".mi 1",
+        "fa,.fa 2", ".re 1", "si 3", ".mi 2", "mi,.do 2", "la 1", "fa 3", ".do 2",
+        "re,si 2", "la 1", "re 3", "la 2", "la.,fa 6", "mi 1", "fa 1",
+        "si.,mi,sol 4", "mi,sol,.re 2", ".do 1", ".re 1", "mi,fa,la 4", "sol 2", "fa 1", "sol 1",
+
+        "mi,sol 4", "mi,sol,.re 2", ".do 1", "si 1", "la 4", "none 2", ".re 1", ".mi 1",
+        "si,.fa 2", ".re 1", "si 3", ".mi 2", "mi,.do 2", "la 1", "fa 3", ".do 2",
+        "re,si 2", "la 1", "re 3", "la 2", "la.,re,fa 6", "mi 1", "fa 1",
+        "si.,mi,sol 4", "mi,la 2", "sol 1", "la 1", "re,fa 2", "la 2", "la,.re 2", ".fa 2",
+
+        "mi,la,.mi 1", "mi,la,.mi 3", "mi,la,.mi 2.666", ".re 1.333", "re,fa,.re 8",
+        "..re 12", "none 2", ".re 1", ".mi 1",
+        "si,.fa 2", ".re 1", "si 3", ".mi 2", "mi,.do 2", "la 1", "fa 3", "mi,.do 2",
+        "re,si 2", "la 1", "re 3", "la 2", "la.,fa 2", "fa. 2", "none 2", "mi 1", "fa 1",
+        
+        "si.,mi,sol 4", "mi,sol,.re 2", ".do 1", ".re 1", "mi,fa,la 4", "sol 2", "fa 1", "sol 1",
+        "mi,sol 4", "mi,sol,.re 2", ".do 1", "si 1", "re,la 6", ".re 1", ".mi 1",
+        "si,.fa 2", ".re 1", "si 3", ".mi 2", "mi,.do 2", "la 1", "fa 3", "mi,.do 2",
+
+        "re,si 2", "la 1", "re 3", "re,la 2", "la.,re,fa 6", "mi 1", "fa 1",
+        "si.,mi,sol 4", "la 2", "sol 1", "la 1", "re,fa 2", "la 2", "la,.re 2", ".fa 2",
+        "mi,la,.do,.mi 1", "mi,la,.do,.mi 3", "mi,sol,.mi 2.666", ".re 1.333", "re,fa,.re 8",
+        "re,sol,si 3", ".do 1", ".re 2", ".do 1", "si 1", "fa,la 2", ".re,.fa 2", "fa,.fa 4",
+
+
+        "mi,la,.do,.mi 3", "fa,.fa 1", "sol,.do,.sol 2", "fa,.fa 1", "mi,.mi 1", "re,.re 2", "mi,.mi 2", "mi,la 4",
+        "re,sol 3", "la 1", "do,si 2", "la 1", "sol 1", "la.,re,fa 2", "re,fa,.re 2", "re,fa,.re 2", "re,fa,.re 2",
+        "mi,la,.do 1", "mi,la,.do 3", "mi,la,si 1", ".do 3", "re,fa,.re 4", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+
+        "si 1", ".re 3", "la,.fa 1", ".la 3", ".mi 1", ".re 3", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+        "si 1", ".re 3", "la,.do,.fa 1", ".la 3", "la,.mi 1", ".re 3", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+
+        "si 1", ".re 3", "la,.re,.fa 1", ".la 3", ".re,.fa,.si 1", ".la 3", ".re,.fa,.la 1", "..do 3",
+        ".mi,..do 1", ".la 3", "la,.do,.fa 1", ".la 3", "fa,.do,.mi 4", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+    
+        "si 1", ".re 3", "la,.re,.fa 1", ".la 3", "la,.mi 1", ".re 3", "la 1", ".re 1", ".mi 1", ".fa 1",
+        "si,.sol 1", ".fa 3", "mi,la,.mi 1", ".do 3", "fa,la,.re 4", "fa.,la. 2", ".re 1", ".do 1",
+        "sol,si 2", ".do 2", "sol,si,.re 2", ".mi 2", "mi,.re 2", "la 2", "re,fa 1", "la 3",
+
+        "re,fa,si 1", ".mi 3", "mi,.do 1", ".re 3", "re,fa,.re 3", "si.,re,fa 3", ".re 1", ".do 1",
+        "sol,si 2", ".do 2", "sol,si,.re 2", ".mi 2", "mi,la,.re 2", "la 2", "re,la,.re 1", "mi,la,.mi 3",
+        "sol,si,.fa 1", ".sol 3", "sol,.do,.mi 1", ".re 3", "re,fa,.re 8",
+
+
+        "la,.re,.mi 2", ".re 2", ".la 2", ".re 4", ".re 2", ".mi 2", ".re 2",
+        "la,.mi 2", ".re 2", ".la 2", ".re 2", "la 2", ".re 2", ".mi 2", ".re 2",
+        "la,.mi 2", ".re 2", ".la 2", ".re 2", "la 2", ".re 2", ".mi 2", ".re 2",
+        "sol,.re 4", "sol,.do 2", "si 2", "fa,la 2", "none 2", "none 2", ".re 1", ".mi 1",
+
+        "si,.fa 2", ".re 1", "si 3", ".mi 2", ".do 2", "la 1", "fa 3", ".do 2",
+        "re,si 2", "la 1", "re 3", "la 1", "sol 0.5", "sol 0.5", "fa 2", "fa. 2", "none 2", "mi 1", "fa 1",
+        "si.,mi,sol 4", "mi,sol,.re 2", ".do 1", ".re 1", "re,fa,la 4", "sol 2", "fa 1", "sol 1",
+        
+        "mi,sol 4", "mi,sol,.re 2", ".do 1", "si 1", "re,la 4", "none 2", ".re 1", ".mi 1",
+        "si,.fa 2", ".re 1", "si 3", ".mi 2", "mi,.do 2", "la 1", "fa 3", "mi,.do 2",
+        "re,fa,si 2", "la 1", "re 3", "la 2", "la.,re,fa 2", "fa. 4", "mi 1", "fa 1",
+
+        "si.,mi,sol 4", "mi,la 2", "sol 1", "la 1", "re,fa 2", "la 2", ".re 2", ".fa 2",
+        "la,.do,.mi 1", ".fa 3", "fa,.do,.mi 1", ".re 3", "re,fa,.re 4", "fa 4",
+        "re,sol,si 3", ".do 1", ".re 2", ".do 1", "si 1", "fa,la 2", ".re,.fa 2", "none 4",
+
+        "la,.do,.mi 3", ".fa 1", ".sol 2", ".fa 1", ".mi 1", "la,.re 2", ".mi 2", "la 2", "none 2",
+        "do,mi,sol 3", "la 1", "si 2", "la 1", "sol 1", "re,fa 2", "fa,.re 2", "fa,.re 2", "fa,.re 2",
+        "mi,.do 1", "mi,.do 3", "mi,si 1", ".do 3", "fa,.re 2", "fa 2", "none 2", "la.,re,fa 3",
+
+        "la.,re,sol 3", "la.,re 4", "none 1.333", "la.,re,mi,fa 2.666", "la.,re,mi,fa 5",
+        "la.,do,mi 3", "do,mi 4", "none 0.666", "none 0.666", "la.,re 2.666", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+
+
+        "si 1", ".re 3", "la,.fa 1", ".la 3", ".mi 1", ".re 3", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+        "si 1", ".re 3", "la,.do,.fa 1", ".la 3", "la,.mi 1", ".re 3", "si,.mi 1", ".fa 1", ".mi 1", ".re 1",
+
+        "si 1", ".re 3", "la,.re,.fa 1", ".la 3", ".re,.fa,.si 1", ".la 3", ".re,.fa,.la 1", "..do 3", 
+        ".mi,..do 1", ".la 3", "la,.do,.fa 1", ".la 3", "fa,.do,.mi 4", "mi 1", "fa 1", "mi 1", "re 1",
+
+        "si. 1", "re 3", "la.,re,fa 1", "la 3", "mi 1", "re 3", "la. 1", "re 1", "mi 1", "fa 1",
+        "si.,sol 1", "fa 3", "la.,mi 1", "do 3", "re,fa,.re 4", "re,fa 2", "re 1", "do 1",
+        "si.,sol. 2", "do 2", "si.,re 2", "mi 2", "la.,re,fa 2", "la.,re,la 2", "fa 1", "la 3",
+
+        "re,sol,si 1", ".mi 3", "mi,la,.do 1", ".re 3", "mi,fa,si,.re 6", ".re 1", ".do 1",
+        "sol,si 2", ".do 2", "sol,si,.re 2", "sol,.mi 2", "mi,la,.re 2", "mi,la 2", "re,la,.re 1", "mi,.mi 3",
+        "sol,si,.fa 1", "sol,si,.sol 3", "sol,la,.do,.mi 1", ".re 3", "re,fa,.re 8",
+
+        "fa,la 8", "fa 4", ".do 2", "si 2",
+        "si 4", ".fa 4", ".sol 4", ".fa 2", ".do 6",
+        ".mi 2", ".re 2", ".re 8",
+        "fa,sol,si 4", "fa,si,.re 4", "fa,si,.mi 4", "fa,si,.re 4",
+
+        
+        "fa,la,.do 4", "do,fa,la 2", "si 2", "do,re,fa,si 6", "sol 1", "la 1",
+        "sol,si 4", ".fa 4", ".sol 4", ".fa 2", ".do 2",
+        "mi,.do 4", ".mi 2", ".re 2", "re,.re 4", "re 4",
+        "mi,fa,sol,si 4", "mi,.re 4", "fa,si,.mi 4", "fa,.re 4",
+
+        "mi,fa,.do 4", "do,fa,la 2", "si 2", "do,re,fa,si 6", "sol 1", "la 1",
+        "fa,si 4", ".fa 4", "sol,.sol 4", ".fa 2", ".do 2",
+        "mi,la,.do 4", "mi,la,.mi 2", ".re 2", "fa,si,.re 8",
+        "mi,fa,sol,si 4", ".do 4", "re,fa,.mi 4", ".re 4",
+        "do,fa,la,.do 4", "la 2", "si 2", "do,re,fa,si 2", "do,re,fa 4", "re,sol 1", "la 1",
+
+        "re,sol,si 4", "fa,si,.fa 4", "sol,si,.sol 4", "fa,si,.fa 2", ".fa 2",
+        "la,.mi,.la 1", "la 0.5", ".la 0.5", "la 0.5", ".la 0.5", "la 0.5", ".la 0.5", "la 0.5", ".la 2", "si,.re,.fa,.si 2", "si,.re,.fa,.si 6", "si 2",
+        "si,.mi,.fa,.sol,.si 4", "si,.mi,.fa 4", "sol,si,.mi 4", "fa,si,.re 4",
+        "mi,la,.do 4", ".re 4", ".do 4", "si 4",
+
+        "si.,mi,fa,sol 10", "la.,fa 2", "si.,sol 2", "la.,la 2",
+        "si.,sol,si 4", "none 2", "none 1", "fa 0.5", "mi 0.5",
+        "fa. 4", "mi. 0.2", "fa. 0.2", "sol. 0.2", "la. 0.2", "si. 0.2", "do 0.2", "re 0.2", "mi 0.2", "fa 0.2", "sol 0.2", "la 0.2", "si 0.2", ".do 0.2", ".re 0.2", ".mi 0.2", ".fa 0.2", ".sol 0.2", ".la 0.2", "none 2.4", ".si 2", "si,.mi 1", ".fa 1", ".mi 1", ".re 1",
+
+        "si 1", ".re 3", "la,.re,.fa 1", ".la 3", "la,.mi 1", ".re 3", "la,.mi 1", ".fa 1", ".mi 1", ".re 1",
+        "si 1", ".re 3", "la,.do,.fa 1", ".la 3", "la,.mi 1", ".re 3", "la,.re,.mi 1", ".fa 1", ".mi 1", ".re 1",
+
+
+        "si 1", ".re 3", "la,.re,.fa 1", ".la 3", ".re,.fa,.si 1", "la,.re,.fa,.la 1", "la,.re,.fa,.la 1", "la,.re,.fa,.la 1", ".re,.fa,.la 1", ".re,.fa,..do 3",
+        ".mi,.fa,..do 1", ".la 3", "la,.do,.fa 1", ".la 3", "fa,.do,.mi 4", ".mi 1", ".fa 1", ".mi 1", ".re 1",
+
+        "si 1", ".re 3", "la,.re,.fa 1", ".la 3", "la,.mi 1", ".re 3", "la 1", ".re 1", ".mi 1", ".fa 1",
+        "si,.si 1", ".fa 3", "mi,la,.mi 1", ".do 3", "mi,fa,la,.re 4", "mi.,la.,do 2", ".re 1", ".do 1",
+        "sol,si 2", ".do 2", "sol,.re 2", "sol,.mi 2", "mi,.re 2", "la 2", "mi,fa 1", "la 3",
+
+        "fa,si 1", "sol,si,.mi 3", "mi,.do 1", ".re 3", "fa,si,.re 2", ".re 0.15", ".do 0.15", "si 0.15", "la 0.15", "sol 0.15", "fa 0.15", "mi 0.15", "re 0.15", "do 0.15", "si. 0.15", "la. 0.15", "sol. 0.15", "fa. 2.2", "sol,.re 1", ".do 1",
+        "sol,si 2", ".do 2", "sol,si,.re 2", "sol,si,.mi 2", "mi,.re 2", "mi,la 2", "re,sol 1", "fa 3",
+
+        "re,sol 1", "re,.re 3", "sol,.re 1", "la,.la 2", ".sol 0.5", ".sol 0.5", ".re,.fa 3", "la.,do,fa 3", ".fa 1", ".mi 1",
+        "la,.re 2", ".mi 2", ".fa 2", ".sol 2", "la,.re,.fa 2", ".re 2", "re,fa,la 1", ".re 3",
+
+        "change bpm 75",
+        "mi,sol,.mi 1", "fa,.fa 3", 
+        "change bpm 70",
+        "mi,la,.do,.mi 1", ".re 3", "re,sol,la,.re 4",
+
+        "change bpm 80",
+        "re,.re 1", "mi,.mi 3", ".re 1.333", ".mi 2.666", "sol,.re 1.333", ".mi 2.666",
+        "sol,.re 1.333", ".mi 2.666", "sol,.re 1.333", ".mi 2.666", "sol,.re 1", ".mi 3",
+        ".la 2", ".sol,..do 2", ".sol,..do 8"
+      ]
+}
